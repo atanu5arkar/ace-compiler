@@ -1,13 +1,10 @@
-### Ace Compiler – Online Coding Environment  
+### Ace Compiler – Coding Platform 
 
-A blazing-fast web-based platform for compiling source code, supporting seven widely used languages, including JavaScript, Python 3, C++, Ruby, among others. 
+- Offers a robust VS Code–like editor with live autocompletion and syntax highlighting, providing an intuitive coding experience. 
+- Powered by a lightweight backend, crafted using Node.js with minimal third-party dependencies.
+- Allows users to upload and download source code with persistent client-side storage for instant access and improved usability. 
+- Provides transparent debugging experience by displaying process metrics such as memory usage, and runtime breakdown, along with the execution results. 
+- Deployed as a Docker Container with a read-only file system to mitigate RCE attacks. 
 
-- **Robust Editor**: VS Code-like editor offering live auto-completion and syntax highlighting in an appealing UI.
-- **Local Storage**: Enables source code upload/download from/to the local system, plus persistent client-side data storage for instant access.
-- **Clean Code**: Runs on a non-bloated backend, crafted using pure Node.js with little to no use of third-party packages.
-- **Security**: Deployed as a Docker Container, isolating the entire service from the host OS to mitigate RCE attacks.
-
-[**Deployment Link**](https://compiler.atanu.dev/)  
-
-#### Project Demo 👇
+#### Quick Demo 👇
 [![**Project Demo**](https://img.youtube.com/vi/YUN8tyhjh5o/hqdefault.jpg)](https://youtu.be/YUN8tyhjh5o) 
