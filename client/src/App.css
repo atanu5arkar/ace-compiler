@@ -1,0 +1,13 @@
+@import "tailwindcss";
+/* @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap'); */
+@layer base {
+    body {
+        @apply min-h-screen max-w-screen bg-white;
+    }
+}
+
+@layer utilities {
+    .editor-option {
+        @apply bg-gray-100 border border-gray-400 rounded focus:outline-none;
+    }
+}
